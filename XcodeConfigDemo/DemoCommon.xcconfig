@@ -1,0 +1,11 @@
+//
+//  DemoCommon.xcconfig
+//  XcodeConfigDemo
+//
+//  Created by SUNYAZHOU on 2020/10/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) SUNYAZHOU_COM='$(SUNYAZHOU_COM)' SYZ_TEST='$(SYZ_TEST)' 

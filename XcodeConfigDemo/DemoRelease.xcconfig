@@ -1,0 +1,14 @@
+//
+//  DemoRelease.xcconfig
+//  XcodeConfigDemo
+//
+//  Created by SUNYAZHOU on 2020/10/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SUNYAZHOU_COM = @"https://www.sunyazhou.com/"
+SYZ_TEST = @"https://xxxxx.com/"
+#include "../Pods/Target Support Files/Pods-XcodeConfigDemo/Pods-XcodeConfigDemo.release.xcconfig"
+#include "DemoCommon.xcconfig"
